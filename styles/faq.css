@@ -48,8 +48,10 @@ body{
     right: 20px;
     font-size: 1.2rem;
     transition: transform 0.2s ease;
+    transform: rotate(0deg);
   }
   .accordion[open] summary::after {
+    transform: rotate(45deg); 
     content: '-';
     transform: rotate(180deg);
   }
