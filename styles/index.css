@@ -1,0 +1,15 @@
+.pizza-history ul {
+    list-style-type: circle; /* Use the standard bullet points */
+    padding-left: 20px;
+    border: 1px solid burlywood;
+}
+
+.pizza-history li {
+    display: block;
+    margin-bottom: 8px;
+}
+
+strong {
+    font-weight: bold; /* Make the key points stand out */
+    color: black; 
+}
