@@ -1,37 +1,52 @@
-/* .history-list {
+.history-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-} */
- .pizza-history{
-    width:1000px;
-    display: grid;
-    grid-template-columns: repeat(1, 5fr);
-    grid-template-rows: repeat(1,10fr);
- }
+}
+ /* .history-list{
+    width: 1000px;
+    display: grid; */
+    /* grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+   
+ }*/
 .pizza-history h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    color: tomato;
-    /* grid-column: 1 / 2; */
+    color: rgb(102, 206, 16);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .pizza-history ul {
+    /* display: block; */
+    /* border: 1px solid burlywood;
+    border-radius: 5px;  */
     list-style-type: circle; 
     padding-left: 20px;
-    border: 1px solid burlywood;
-    border-radius: 5px;
-    grid-column: 1 / 2;
-    grid-row: 2/5;
+    margin: 10px;
+    
 }
 
-.pizza-history li {
-    display: block;
+.history-list li {
+    /* display: block; */
     margin-bottom: 8px;
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    /* grid-column-start: 1;
+    grid-column-end: 5; */
 }
 
 strong {
     font-weight: bold; 
     font-style: italic;
-    color: black; 
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2lzMTYwNjItaW1hZ2Uta3d2eWZrd3IuanBn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* 
+    background-blend-mode: lighten; */
 }
