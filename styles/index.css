@@ -1,7 +1,28 @@
+/* .history-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+ .pizza-history{
+    width:1000px;
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+    grid-template-rows: repeat(1,10fr);
+ }
+.pizza-history h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: tomato;
+    /* grid-column: 1 / 2; */
+}
 .pizza-history ul {
-    list-style-type: circle; /* Use the standard bullet points */
+    list-style-type: circle; 
     padding-left: 20px;
     border: 1px solid burlywood;
+    border-radius: 5px;
+    grid-column: 1 / 2;
+    grid-row: 2/5;
 }
 
 .pizza-history li {
@@ -10,6 +31,7 @@
 }
 
 strong {
-    font-weight: bold; /* Make the key points stand out */
+    font-weight: bold; 
+    font-style: italic;
     color: black; 
 }
