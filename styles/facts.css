@@ -1,8 +1,38 @@
 h3 {
     color:rgb(247, 156, 171);
     font-family: fantasy;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
+}
+
+/* Add Grid */
+.grid-container {
+  display: grid;
+  /* background-color: beige; */
+  padding: 40px;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; 
+  align-items: center;
+
+}
+
+.fun-facts {
+  background-color: lightblue;
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  display: inline-block;
+  border: 2px solid rgb(247, 156, 171);
+
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stacks items on smaller screens */
+  }
 }
