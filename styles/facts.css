@@ -1,5 +1,5 @@
+/* add background image */
 body {
-    /* add background image */
   background-image: url('https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_960_720.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,9 +13,11 @@ h3 {
     font-weight: bold;
 }
 
+
 p {
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 /* Add Grid */
 .grid-container {
@@ -27,9 +29,10 @@ p {
   align-items: center;
 }
 
+
 .fun-facts {
   background-color: lightblue;
-  width: 500px;
+  width: 520px;
   height: 200px;
   padding: 30px;
   display: inline-block;
@@ -37,8 +40,19 @@ p {
 
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1200px) {
   .grid-container {
     grid-template-columns: 1fr; /* Stacks items on smaller screens */
   }
+}
+
+/* Add pizza emoji/ */
+.fun-facts p::before {
+  content:'🍕  ';
+}
+
+/* On hover, make .fun-facts a little bigger */
+.fun-facts:hover {
+  transform: scale(1.10);
 }
