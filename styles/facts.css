@@ -1,3 +1,11 @@
+body {
+    /* add background image */
+  background-image: url('https://cdn.pixabay.com/photo/2020/05/17/04/22/pizza-5179939_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 h3 {
     color:rgb(247, 156, 171);
     font-family: fantasy;
@@ -12,13 +20,11 @@ p {
 /* Add Grid */
 .grid-container {
   display: grid;
-  /* background-color: beige; */
   padding: 40px;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
   justify-items: center; 
   align-items: center;
-
 }
 
 .fun-facts {
